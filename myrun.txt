@@ -1,7 +1,0 @@
-docker run --rm \
--p 80:80 \
--e METADATA=https://fssfed.ge.com/fss/.well-known/openid-configuration \
--e CLIENT_ID=testclient \
--e CLIENT_SECRET=test123test \
--e REDIRECT_URI=http://localhost/redirect_uri \
-<username>/centos-oidc:latest
