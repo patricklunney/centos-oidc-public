@@ -1,7 +1,7 @@
 # Docker Image for OIDC
 # Set Base Image
 FROM centos:7
-MAINTAINER Digital SSO Team
+MAINTAINER Patrick Lunney
 LABEL Vendor="CentOS" \
       License=GPLv2 \
       Version=2.4.6-40
