@@ -6,10 +6,6 @@ LABEL Vendor="CentOS" \
       License=GPLv2 \
       Version=2.4.6-40
 
-RUN yum -y --setopt=tsflags=nodocs update && \
-    yum -y --setopt=tsflags=nodocs install httpd && \
-    yum clean all
-
 RUN yum install vim php -y
 RUN rpm -Uvh http://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 RUN yum install jansson -y
